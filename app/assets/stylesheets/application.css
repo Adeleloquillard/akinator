@@ -15,8 +15,16 @@
  */
 
 
+
 h1 {
-	color : red;
+  color : #ff8f8e;
+  text-align: center;
+  margin : 10px;
+}
+
+p {
+  text-align: center;
+  margin: 10px;
 }
 
 
@@ -26,6 +34,20 @@ h1 {
 
 
 .avatar{
-	height:400px;
+	height:700px;
+  padding: 5px;
 }
+
+.center {
+text-align: center;
+}
+
+
+li {
+
+list-style: none;
+
+}
+
+
 

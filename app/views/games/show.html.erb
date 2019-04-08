@@ -1,11 +1,27 @@
-<h1>Games#show</h1>
-<p>Find me in app/views/games/show.html.erb</p>
+
+<div class="row">
+	<div class="col-md-6">
+			<div class="links">
+
+
+
+<h1>Voici vos reponses</h1>
+
 
 <ul>
 <% @game["answers"].each do |answer| %>
 
-<li> Ma réponse est <%= answer %> </li>
+<li> La réponse est <%= answer %> </li>
 
 
 <% end%>
 </ul>
+
+
+
+</div>
+    </div>
+    <div class="col-md-6">
+      <img src="https://static.comicvine.com/uploads/original/0/77/590214-genie.jpg" alt="", class="avatar">
+    </div>
+  </div>
